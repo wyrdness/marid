@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/marid",
     "maintainers": [
       {
@@ -18,369 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "marid",
     "name": "Marid",
-    "aliases": [
-      {
-        "name": "Mārid",
-        "language": "Arabic",
-        "meaning": "rebellious, giant"
-      },
-      {
-        "name": "Genie",
-        "region": "Western",
-        "meaning": "Anglicized from jinn, often refers to Marid"
-      }
-    ],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Demon/Angel",
+    "aliases": [],
+    "category": "|_ALTERNATIVE_SPELLING/BROADER_CATEGORY_|",
+    "subcategory": "| Powerful djinn type, second to Marid in strength |",
     "tags": [
-      "islamic",
-      "djinn",
-      "jinn",
-      "spirit",
-      "fire",
-      "shapeshifter",
-      "wish-granting",
-      "powerful",
-      "arabic",
-      "supernatural"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "The most powerful type of djinn in Islamic tradition, made of smokeless fire with immense magical abilities and often depicted as large, blue-skinned beings in modern interpretations.",
-      "full": "Marid are the most powerful and rarest type of djinn in Islamic theology and Arabian folklore. Created from smokeless fire like all djinn, Marid possess immense supernatural powers including shape-shifting, magic mastery, reality manipulation, and wish-granting abilities. In Islamic tradition, they have free will and can be good, evil, or neutral. Western folklore, particularly through the Arabian Nights tales, popularized the image of Marid as wish-granting genies bound to lamps or bottles, though this is a later cultural adaptation. Even King Solomon, who commanded djinn, reportedly struggled to control Marid due to their exceptional power and prideful nature."
+      "summary": "Marid are the most powerful and rarest type of djinn in Islamic theology and Arabian folklore.",
+      "full": "Marid are the most powerful and rarest type of djinn in Islamic theology and Arabian folklore. Created from smokeless fire like all djinn, Marid possess immense supernatural powers including shape-shifting, magic mastery, reality manipulation, and wish-granting abilities. In Islamic tradition, they have free will and can be good, evil, or neutral. Western folklore, particularly through the Arabian Nights tales, popularized the image of Marid as wish-granting genies bound to lamps or bottles, though this is a later cultural adaptation. Even King Solomon, who commanded djinn, reportedly struggled to control Marid due to their exceptional power and prideful nature. > ⚠️ **Cultural Sensitivity**: Marid and djinn are part of active Islamic religious belief. This documentation approaches the subject with respect for Islamic theological tradition."
     },
     "etymology": {
-      "origin": "Arabic 'mārid' (مارد), meaning 'rebellious' or 'giant'",
-      "meaning": "The name reflects their powerful, defiant nature and immense size",
-      "first_use": "Pre-Islamic Arabian tradition, formalized in Islamic theology"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT",
-      "type": "Demon/Angel",
-      "subtype": "Djinn/Jinn",
-      "variant": "Islamic"
+      "category": "|_ALTERNATIVE_SPELLING/BROADER_CATEGORY_|",
+      "type": "| Powerful djinn type, second to Marid in strength |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "djinn",
-        "name": "Djinn",
-        "relationship": "parent_category",
-        "description": "General category of fire spirits in Islamic tradition"
-      },
-      {
-        "id": "ifrit",
-        "name": "Ifrit",
-        "relationship": "related",
-        "description": "Powerful djinn type, second to Marid in strength"
-      },
-      {
-        "id": "jinn",
-        "name": "Jinn",
-        "relationship": "parent_category",
-        "description": "Alternative spelling of djinn"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": [
-        {
-          "form": "Smokeless fire",
-          "description": "True form as described in Islamic texts",
-          "frequency": "traditional"
-        },
-        {
-          "form": "Large blue humanoid",
-          "description": "Modern Western depiction - muscular, blue-skinned giant",
-          "frequency": "popular_culture"
-        },
-        {
-          "form": "Variable shapes",
-          "description": "Can take any form through shape-shifting",
-          "frequency": "common"
-        }
-      ],
-      "features": [
-        {
-          "feature": "Smokeless fire composition",
-          "description": "Created from smokeless fire according to Islamic tradition",
-          "frequency": "always"
-        },
-        {
-          "feature": "Immense size",
-          "description": "Often depicted as much larger than humans",
-          "frequency": "common"
-        },
-        {
-          "feature": "Blue skin",
-          "description": "Modern Western interpretation (Arabian Nights influence)",
-          "frequency": "modern_depictions"
-        }
-      ],
-      "morphology": "Incorporeal fire-being capable of assuming any physical form"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shape-shifting",
-        "description": "Can take any form - human, animal, or fantastic creature",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Magic mastery",
-        "description": "Exceptional command of supernatural powers and sorcery",
-        "frequency": "always",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Wish-granting",
-        "description": "Three wishes trope from Western adaptation of folklore",
-        "frequency": "western_tradition",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Reality manipulation",
-        "description": "Can alter physical reality through magical power",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Superhuman strength",
-        "description": "Physical power far exceeding humans",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Flight",
-        "description": "Can fly and traverse great distances instantly",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Can become invisible to human eyes",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "variable",
-      "moral_alignment": "Can be good, evil, or neutral - possess free will",
-      "temperament": [
-        "Proud and powerful",
-        "Can be benevolent if treated with respect",
-        "Extremely dangerous when angered or insulted",
-        "Independent and difficult to control"
-      ],
-      "patterns": [
-        "Resent being bound or controlled",
-        "Honor bargains and agreements",
-        "Respond to proper ritual and respect",
-        "May serve willingly if approached correctly"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Originated in Arabian Peninsula and Islamic world, spread globally through Islamic expansion and cultural exchange",
-      "continents": ["Asia", "Africa", "Europe"],
-      "countries": ["Saudi Arabia", "Yemen", "Iraq", "Egypt", "Iran", "throughout Islamic world"],
-      "regions": [
-        "Arabian Peninsula",
-        "Middle East",
-        "North Africa",
-        "Central Asia",
-        "South Asia"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Pre-Islamic Arabia",
+        "date": "Unknown",
         "circa": true,
-        "source": "Arabian oral tradition, formalized in Quran and Islamic texts"
-      },
-      "cultural_significance": "Central to Islamic theology and Arabian folklore; global recognition through Arabian Nights"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Pre-Islamic Arabian belief in fire spirits, incorporated into Islamic theology as beings created by Allah from smokeless fire alongside humans (clay) and angels (light).",
-      "earliest_accounts": "Pre-Islamic Arabian oral traditions, formalized in the Quran (Surah Al-Jinn, Surah Ar-Rahman)",
-      "theological_basis": "Islamic texts describe djinn as beings with free will, created before humans, with Marid being the most powerful type"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-Islamic era",
-        "event": "Arabian traditions of fire spirits",
-        "significance": "Pre-Islamic Arabs believed in various spirits and supernatural beings",
-        "source": "Oral tradition"
-      },
-      {
-        "date": "7th century CE",
-        "event": "Islamic formalization",
-        "significance": "Quran establishes djinn as beings created from smokeless fire with free will",
-        "source": "Quran, Hadith"
-      },
-      {
-        "date": "c. 10th century",
-        "event": "King Solomon traditions",
-        "significance": "Stories of Solomon commanding djinn, including powerful Marid",
-        "source": "Islamic and Jewish texts"
-      },
-      {
-        "date": "c. 9th-14th centuries",
-        "event": "Arabian Nights compilation",
-        "significance": "Tales popularize Marid as wish-granting genies in lamps/bottles",
-        "source": "One Thousand and One Nights"
-      },
-      {
-        "date": "19th-20th centuries",
-        "event": "Western popularization",
-        "significance": "Arabian Nights translations create 'genie' concept in Western culture",
-        "source": "European translations and adaptations"
-      },
-      {
-        "date": "1992",
-        "event": "Disney's Aladdin",
-        "significance": "Blue genie character cements modern Western Marid imagery",
-        "source": "Popular culture"
-      }
-    ],
-    "modern_era": "Marid remain part of active Islamic belief and practice, while also existing as popular culture figures in Western media through the 'genie' archetype."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Arabian Nights (One Thousand and One Nights) genie stories",
-        "Aladdin's lamp tradition",
-        "Solomon's control of djinn",
-        "Three wishes motif"
-      ],
-      "stories": [
-        "Aladdin and the Magic Lamp",
-        "The Fisherman and the Jinni",
-        "Solomon's seal and binding of djinn"
-      ],
-      "beliefs": "In Islamic tradition, Marid are real beings created by Allah with free will. Binding them is extremely difficult and dangerous."
-    },
-    "religious": {
-      "significance": "Central to Islamic theology as the most powerful type of djinn",
-      "sensitivity_note": "Marid and djinn are part of active Islamic religious belief. Approach with respect for religious tradition.",
-      "proper_approach": "Recognize distinction between theological understanding and Western popular culture adaptations",
-      "cultural_context": "Islamic tradition"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "One Thousand and One Nights (various editions)",
-        "Modern fantasy incorporating djinn/genie mythology"
-      ],
-      "film_tv": [
-        "Aladdin (Disney, 1992) - popularized blue genie",
-        "I Dream of Jeannie (TV series, 1965-1970)",
-        "Kazaam (1996)",
-        "Wishmaster (1997) - horror interpretation",
-        "American Gods (TV) - djinn representation"
-      ],
-      "games": [
-        "Dungeons & Dragons djinn/genie creatures",
-        "Various RPGs featuring genies"
-      ],
-      "other": [
-        "Three wishes cultural trope",
-        "\"Be careful what you wish for\" cautionary tales",
-        "Genie in a bottle/lamp imagery"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "binding_traditions": {
-    "methods": [
-      {
-        "method": "Magical vessels",
-        "description": "Binding to lamps, bottles, rings, or other containers",
-        "difficulty": "Extremely difficult for Marid",
-        "source": "Arabian Nights tradition"
-      },
-      {
-        "method": "Solomon's Seal",
-        "description": "Magical seal used by King Solomon to command djinn",
-        "difficulty": "Required divine authority",
-        "source": "Islamic and Jewish tradition"
-      },
-      {
-        "method": "Ritual magic",
-        "description": "Complex magical rituals and incantations",
-        "difficulty": "Extremely dangerous, high failure rate",
-        "source": "Islamic occult tradition"
-      }
-    ],
-    "warnings": [
-      "Marid are the most powerful and difficult djinn to control",
-      "Even Solomon struggled to command Marid",
-      "Binding attempts can result in the sorcerer's destruction",
-      "Marid resent bondage and may seek revenge when freed",
-      "Improper binding may result in trickery or literal interpretation of commands"
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "theories": {
-    "religious": [
-      {
-        "name": "Islamic theological view",
-        "description": "Marid are real beings created by Allah from smokeless fire, possessing free will",
-        "tradition": "Islamic theology",
-        "evidence_cited": ["Quranic verses", "Hadith traditions", "Scholarly consensus"]
-      }
-    ],
-    "folkloric": [
-      {
-        "name": "Cultural memory",
-        "description": "Djinn traditions preserve pre-Islamic Arabian spiritual beliefs",
-        "evidence_cited": ["Pre-Islamic poetry", "Archaeological evidence of Arabian spiritual practices"]
-      }
-    ],
-    "literary": [
-      {
-        "name": "Literary evolution",
-        "description": "Western 'genie' concept evolved from Arabian Nights translations and cultural adaptation",
-        "evidence_cited": ["Historical translation analysis", "Evolution of genie tropes in Western literature"]
-      }
-    ]
-  },
-
-  "sources": [
-    {
-      "id": "quran",
-      "type": "religious_text",
-      "title": "The Quran",
-      "note": "Surah Al-Jinn (72), Surah Ar-Rahman (55:15)"
-    },
-    {
-      "id": "arabian-nights",
-      "type": "book",
-      "title": "One Thousand and One Nights",
-      "note": "Various editions and translations",
-      "date": "c. 9th-14th centuries"
-    },
-    {
-      "id": "el-zein-2009",
-      "type": "book",
-      "title": "Islam, Arabs, and the Intelligent World of the Jinn",
-      "authors": ["Amira El-Zein"],
-      "publication": "Syracuse University Press",
-      "date": "2009",
-      "isbn": "978-0815650706"
-    }
-  ]
+  "sources": []
 }
