@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/marid",
     "maintainers": [
       {
@@ -16,72 +16,116 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "marid",
     "name": "Marid",
-    "aliases": [],
-    "category": "|_ALTERNATIVE_SPELLING/BROADER_CATEGORY_|",
-    "subcategory": "| Powerful djinn type, second to Marid in strength |",
+    "aliases": [
+      { "name": "مَارِد", "language": "Arabic", "meaning": "'rebellious', 'recalcitrant'" },
+      { "name": "Marīd", "language": "Arabic (transliteration)" },
+      { "name": "Mārid", "language": "Arabic (transliteration)" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Class of jinn in Islamic tradition",
     "tags": [
-      "folklore",
-      "mythology"
+      "jinn",
+      "djinn",
+      "islamic-tradition",
+      "arabian-folklore",
+      "quran",
+      "one-thousand-and-one-nights",
+      "shaytan"
     ],
     "status": "documented",
     "description": {
-      "summary": "Marid are the most powerful and rarest type of djinn in Islamic theology and Arabian folklore.",
-      "full": "Marid are the most powerful and rarest type of djinn in Islamic theology and Arabian folklore. Created from smokeless fire like all djinn, Marid possess immense supernatural powers including shape-shifting, magic mastery, reality manipulation, and wish-granting abilities. In Islamic tradition, they have free will and can be good, evil, or neutral. Western folklore, particularly through the Arabian Nights tales, popularized the image of Marid as wish-granting genies bound to lamps or bottles, though this is a later cultural adaptation. Even King Solomon, who commanded djinn, reportedly struggled to control Marid due to their exceptional power and prideful nature. > ⚠️ **Cultural Sensitivity**: Marid and djinn are part of active Islamic religious belief. This documentation approaches the subject with respect for Islamic theological tradition."
+      "summary": "A category of powerful, rebellious jinn in Islamic theology and Arabian folklore. The Quran (37:7) speaks of stars guarding the lowest heaven against the 'rebellious devils' (shayṭānin māridin), and later Arabic literature, including the Thousand and One Nights, treats the Marid as among the strongest classes of jinn.",
+      "full": "Marid (Arabic مَارِد, mārid, 'rebellious') is a class of powerful jinn in Islamic theology and Arabian folklore. The term derives from the Arabic root m-r-d, meaning 'recalcitrant' or 'rebellious'. The Quran in Surah As-Saffat (37:7) describes stars adorning the lowest heaven and protecting it from 'every rebellious devil' (kulli shayṭānin māridin), establishing marids as entities that attempt to eavesdrop on heavenly affairs. Later Arabic theological and lexicographical tradition (e.g. Lisan al-Arab, Hans Wehr) treats marids as a distinct category of jinn, often paired or contrasted with the ʿifrīt: in the schema reported by some Maliki Athari scholars (such as Ibn ʿAbd al-Barr), the marid is more malevolent than an ordinary shayṭān but less powerful than an ʿifrīt; other sources reverse the ordering. In the MacNaghten edition of One Thousand and One Nights (e.g. The Story of the Fisherman and the Jinni), 'marid' and 'ifrit' are used somewhat interchangeably. Western popular culture, drawing on these stories and on later occult writing, has often pictured Marids as wish-granting water-spirits bound to vessels — a partial but distorted reflection of the Arabic tradition."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Arabic active participle of the root m-r-d ('to rebel, be recalcitrant'); cognate with Hebrew מָרַד (māraḏ, 'to rebel') and Aramaic forms.",
+      "meaning": "'Rebellious one'; in Islamic usage, a powerful, rebellious jinn or devil.",
+      "first_use": "Quran (mid-7th century CE), Surah As-Saffat 37:7."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_ALTERNATIVE_SPELLING/BROADER_CATEGORY_|",
-      "type": "| Powerful djinn type, second to Marid in strength |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Jinn",
+      "subtype": "Rebellious / powerful jinn",
+      "variant": "Islamic / Arabian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ifrit", "name": "ʿIfrīt", "relationship": "similar", "description": "Another powerful class of jinn, often paired or contrasted with the marid" },
+      { "id": "ghoul", "name": "Ghoul", "relationship": "related", "description": "Another category of dangerous Arabian supernatural being" },
+      { "id": "shaitan", "name": "Shayṭān", "relationship": "superset", "description": "Broad category of devils to which marids and ifrits both belong in some traditions" },
+      { "id": "jinn", "name": "Jinn", "relationship": "superset", "description": "The general class of beings created from smokeless fire in Islamic theology" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Created from smokeless fire", "description": "Like all jinn, marids are described in Islamic theology as created from a smokeless or scorching fire", "frequency": "always" },
+        { "feature": "Great size and power", "description": "Often depicted as gigantic in Arabic literature and the Thousand and One Nights", "frequency": "common" },
+        { "feature": "Shapeshifting", "description": "Like other jinn, marids can take on various forms — human, animal, monstrous", "frequency": "common" }
+      ],
+      "morphology": "An invisible spiritual being capable of manifesting in physical form; in literature, often pictured as an immense humanoid."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Magical and supernatural power", "description": "Considered among the most powerful classes of jinn, capable of feats beyond ordinary jinn", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Shapeshifting", "description": "Ability to take on different forms", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Eavesdropping on heaven", "description": "In Quranic tradition, marids attempt to ascend toward the lowest heaven and overhear angelic speech, and are warded off by shooting stars", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Rebellion against authority", "description": "In epics such as Sirat Sayf ibn Dhi-Yazan, marids defy human masters and even kings", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["the air / lower heavens (Quranic tradition)", "deserts and remote places", "vessels and lamps (in literary tradition)"],
+      "patterns": [
+        "Often portrayed as proud, free-willed, and resistant to control",
+        "In folktales, may be bound by a powerful magician or by King Solomon",
+        "Western popular culture often associates Marids specifically with water; this is a later, partly Western, refinement"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
+      "description": "Pan-Islamic — present wherever Islamic theology and Arabic folklore are transmitted; especially prominent in classical Arabic literature.",
+      "continents": ["Asia", "Africa", "Europe"],
       "countries": [],
-      "regions": []
+      "regions": ["Arabian Peninsula", "Levant", "Mesopotamia", "North Africa", "Islamic world"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "0610",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Quran, Surah As-Saffat 37:7 (revealed in early 7th century CE)"
+      },
+      "peak_activity_periods": [
+        { "period": "9th–14th century", "description": "Classical Arabic literary, theological, and lexicographical treatment of marids and other jinn (Lisan al-Arab, Tafsir tradition)." },
+        { "period": "9th century onward", "description": "Marids feature prominently in the Thousand and One Nights story tradition." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Islamic Arabian belief in jinn, integrated and reframed by Quranic revelation and subsequent Islamic theology and lexicography.",
+      "earliest_accounts": "Quran, Surah As-Saffat 37:7 (early 7th century CE).",
+      "folklore_connections": "Connects to broader Arabic and Islamic jinn tradition (ifrit, ghoul, shayṭān) and to the literary world of the Thousand and One Nights."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0610-01-01", "event": "Quran (Surah As-Saffat 37:7) describes the lowest heaven adorned with stars to guard against 'rebellious devils' (shayṭānin māridin)", "significance": "Earliest Quranic reference and foundational text", "source": "Quran 37:7" },
+      { "date": "0900-01-01", "event": "The classical Arabic story-cycle Alf Layla wa-Layla (One Thousand and One Nights) develops; marids and ifrits feature in stories such as The Fisherman and the Jinni", "significance": "Anchors the marid in world literature", "source": "MacNaghten edition of the Thousand and One Nights" },
+      { "date": "1290-01-01", "event": "Ibn Manzur compiles Lisan al-Arab, including detailed lexical entries on marid", "significance": "Major Arabic lexicographical source", "source": "Ibn Manzur, Lisan al-Arab" }
+    ],
+    "modern_era": "Marids continue to be discussed in Islamic theology and tafsir, and have entered Western popular culture chiefly via translations of the Arabian Nights and via fantasy and gaming franchises that draw on the jinn hierarchy."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +136,124 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "marid-evidence-quran-37-7",
+        "type": "scriptural source",
+        "name": "Quran, Surah As-Saffat 37:7",
+        "date": "0610",
+        "description": "Foundational Quranic reference to 'rebellious devils' (shayṭānin māridin) warded off from the lowest heaven.",
+        "status": "verified",
+        "analysis": "Authoritative scriptural source for the marid as a category of jinn in Islamic tradition.",
+        "source": "Quran 37:7"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Real class of jinn",
+        "description": "In Islamic theology, marids are real spiritual beings, a recognised class within the broader category of jinn created from smokeless fire.",
+        "proponents": ["Classical Islamic theologians", "Tafsir tradition"],
+        "evidence_cited": ["Quranic references", "Hadith and exegetical tradition"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Pre-Islamic spirit-categories systematised",
+        "description": "From a comparative-religion perspective, the marid is a literary and theological systematisation of pre-Islamic Arabian beliefs about powerful spirits, integrated into Quranic cosmology.",
+        "proponents": ["Modern scholars of Islamic studies"],
+        "evidence_cited": ["Pre-Islamic Arabian poetry references to jinn", "Continuity with regional spirit-traditions"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Quranic and tafsir tradition on jinn",
+        "Pre-Islamic Arabian belief in jinn",
+        "Arabian Nights / Thousand and One Nights literary tradition"
+      ],
+      "stories": [
+        "The Fisherman and the Jinni (Thousand and One Nights)",
+        "Sirat Sayf ibn Dhi-Yazan, in which a marid disobeys King Sayf"
+      ],
+      "beliefs": "Marids are part of mainstream Islamic belief about the world of the unseen (al-ghayb); they are not regarded as folklore but as part of the created order."
+    },
+    "indigenous": {
+      "cultures": ["Arabic-speaking Muslim societies"],
+      "significance": "Marids are part of living Islamic religious belief, not a defunct mythology.",
+      "sensitivity_note": "Approach Marids with respect for Islamic theological tradition; distinguish Quranic and theological framing from later Western 'genie' stereotypes.",
+      "respect_guidelines": "Cite Quran, hadith, and recognised tafsir where possible; avoid conflating Marids with Western fantasy 'genies in lamps'."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "One Thousand and One Nights (multiple medieval and early modern editions)",
+        "Ibn Manzur, Lisan al-Arab (c. 1290)",
+        "Hans Wehr, Dictionary of Modern Written Arabic"
+      ],
       "film_tv": [],
-      "games": [],
-      "other": []
+      "games": [
+        "Marids appear as a class of genie in Dungeons & Dragons (water-aligned genie)",
+        "Recurrent in fantasy RPGs drawing on the Arabian Nights"
+      ],
+      "music": [],
+      "other": [
+        "Frequently invoked in Western pop-culture treatments of 'genies' and the Arabian Nights"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Marids are studied within Islamic studies, Arabic philology, and the comparative study of jinn and demonology."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-marid",
+      "type": "website",
+      "title": "Marid",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marid",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "quran-37-7",
+      "type": "book",
+      "title": "Quran, Surah As-Saffat (37), v. 7",
+      "date": "0610"
+    },
+    {
+      "id": "lisan-al-arab",
+      "type": "book",
+      "title": "Lisan al-Arab",
+      "authors": ["Ibn Manzur"],
+      "date": "1290"
+    },
+    {
+      "id": "macnaghten-1001-nights",
+      "type": "book",
+      "title": "Alf Layla wa-Layla (One Thousand and One Nights), MacNaghten edition",
+      "date": "1839"
+    },
+    {
+      "id": "wehr-dictionary",
+      "type": "book",
+      "title": "Dictionary of Modern Written Arabic",
+      "authors": ["Hans Wehr"],
+      "date": "1979"
+    }
+  ]
 }
